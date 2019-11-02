@@ -10,6 +10,8 @@ export function helloWorld(_options: any): Rule {
     // snippet: sch-tree-create
     // tree.create('hello.ts', 'console.log(\'Hello World\'');
 
+    tree.create('hello.ts', 'console.log(\'Hello World\');');
+
     return tree;
   };
 }
