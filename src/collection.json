@@ -1,0 +1,24 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "hello-world": {
+      "description": "A blank schematic.",
+      "factory": "./hello-world/index#helloWorld"
+    },
+    "exercise-3": {
+      "description": "Exercise 3",
+      "factory": "./exercise-3/index#exercise3",
+      "schema": "./exercise-3/schema.json"
+    },
+    "exercise-5": {
+      "description": "Exercise 5",
+      "factory": "./exercise-5/index#exercise5",
+      "schema": "./exercise-5/schema.json"
+    },
+    "exercise-6": {
+      "description": "Exercise 6",
+      "factory": "./exercise-6/index#exercise6",
+      "schema": "./exercise-6/schema.json"
+    }
+  }
+}
